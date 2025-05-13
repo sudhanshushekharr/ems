@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* body {
+  background-color: #111;
+
+}
+
+input {
+  background-color: #111;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+#taskList::-webkit-scrollbar {
+  display: none;
+} */
+
+
+
+*{
+  color: #fff;
+}
+body{
+  background-color: #111;
+}
+#tasklist::-webkit-scrollbar{
+    background-color: transparent;
+    height: 5px;
+}
+#tasklist::-webkit-scrollbar-thumb{
+  background-color: rgb(143, 143, 143);
+  border-radius: 50px;
+}
